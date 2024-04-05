@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"
+        <title></title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+
+<!-- I modified one of the bootstrap examples to get to this - added in the logo, switched it to a dark theme, and then used the cleaner nav buttons.  -->
+          <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images\logo-small.png" alt="Bootstrap" width="35" height="35">
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link disabled" aria-disabled="true">Our Story</a>
+                  <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                  <a class="nav-link disabled" aria-disabled="true">Locations</a>
+                  <a class="nav-link disabled" aria-disabled="true">Catering</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+<!-- Needed a line break to make this cleaner-->
+          <br>
+
+<!-- I grabbed the container grids from the professor's example @ https://github.com/prof-rossetti/internet-technologies/blob/main/exercises/website-style/bootstrap_5_nav_and_cards.html
+    I had experimented with the headers & footers, so I added them back in.  I don't totally understand the containers, but the documentation said that they're critical, so I put each of the sections into a container-->
+<div class="container-fluid">
+<!-- I googled how to center this, found it on https://mdbootstrap.com/docs/standard/layout/horizontal-alignment/ -->
+    <div class="text-center"><h1>SUPERFOOD SMOOTHIES</h1></div>
+<div class="row row-cols-3">
+
+          <div class="card col" style="width: 18rem; margin:20px;">
+              <div class="card-header"> Taste the Tropics </div>
+              <img src="images\414-coco-verde.jpg">
+              <div class="card-body">
+                  <h5 class="card-title">COCO VERDE</h5>
+                  <p class="card-text">kale, spinach, mango, banana, dates, coconut oil, coconut water</p>
+              </div>
+              <div class="card-footer text-body-secondary"> Our Most Popular Smoothie </div>
+          </div>
+
+          <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Berry Blissful Boost </div>
+            <img src="images\415-cbj.jpg">
+            <div class="card-body">
+                <h5 class="card-title">BRADLEY'S CB&J</h5>
+                <p class="card-text">strawberry, banana, cashew butter, dates, dragonfruit, house cashew milk</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Creamy, Nutty Perfection </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Strength in Every Sip </div>
+            <img src="images\416-super.jpg">
+            <div class="card-body">
+                <h5 class="card-title">SUPERMAN</h5>
+                <p class="card-text">blueberries, goji berries, banana, dates, dragondruit, house almond milk</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Energizing Antioxidant Fusion </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Ignite Your Inner Fire </div>
+            <img src="images\417-blaze.jpg">
+            <div class="card-body">
+                <h5 class="card-title">THE BLAZE</h5>
+                <p class="card-text">strawberry, mango, banana, dates, ginger, cayenna, house cashew milk</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Spicy Sweet Sensation </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Awaken Island Vibrance </div>
+            <img src="images\452-tropic-energy.jpg">
+            <div class="card-body">
+                <h5 class="card-title">TROPIC ENERGY</h5>
+                <p class="card-text">mango, banana, dates, dragonfruit, brewed guayusa</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Vibrant Energy Boost </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Buzzing Breakfast Blend </div>
+            <img src="images\451-blended-brew.jpg">
+            <div class="card-body">
+                <h5 class="card-title">BLENDED BREW</h5>
+                <p class="card-text">banana, cashew butter, cold brew coffee, cacao (optional)</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Mocha Morning Kick </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Decadent Chocolate Dream </div>
+            <img src="images\453-cacao-monster.jpg">
+            <div class="card-body">
+                <h5 class="card-title">CACAO MONSTER</h5>
+                <p class="card-text">banana, cashew butter, cacao, house almond milk</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Indulgent Velvety Delight </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Hydrate with Sweetness </div>
+            <img src="images\465-waterboy.jpg.jpg">
+            <div class="card-body">
+                <h5 class="card-title">THE WATERBOY</h5>
+                <p class="card-text">banana, blueberries, pineapple, house oat milk</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Fruity Hydration Wave </div>
+        </div>
+
+      </div>
+
+</div>
+
+<div class="container-fluid">
+    <div class="text-center"><h1>HOUSEMADE JUICES</h1></div>
+<div class="row row-cols-3">
+
+          <div class="card col" style="width: 18rem; margin:20px;">
+              <div class="card-header"> Zesty Verdant Zing </div>
+              <img src="images\374-spicy-green.jpg">
+              <div class="card-body">
+                  <h5 class="card-title">SPICY GREEN</h5>
+                  <p class="card-text">spinach, romaine, kale, cucumber, celery, sprouts, parsley, cilantro, jalapeno, lime, pink salt</p>
+              </div>
+              <div class="card-footer text-body-secondary"> Green, Mean, Spice Machine </div>
+          </div>
+
+          <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Purity Meets Green </div>
+            <img src="images\375-clean-green.jpg">
+            <div class="card-body">
+                <h5 class="card-title">CLEAN GREEN</h5>
+                <p class="card-text">kale, spinach, cucumber, celery, apple parsley, ginger, lemon</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Freshness in Every Sip </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Softly Soothing Sips </div>
+            <img src="images\376-gentle-green.jpg">
+            <div class="card-body">
+                <h5 class="card-title">GENTLE GREEN</h5>
+                <p class="card-text">kale, spinach, cucumber, grapefruit, apple</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Mellow Green Magic </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> A Kick in the Glass </div>
+            <img src="images\377-citrus-fire.jpg">
+            <div class="card-body">
+                <h5 class="card-title">CITRUS FIRE</h5>
+                <p class="card-text">orange, grapefruit, ginger, lemon, cayenne pepper</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Sizzle, Swig, Smile </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Boldly Beets Blast </div>
+            <img src="images\386-rinse-rebeet.jpg">
+            <div class="card-body">
+                <h5 class="card-title">RINSE REBEET</h5>
+                <p class="card-text">beet, carrot, cucumber, celery, lemon</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Revitalize with Reds </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Crisp Citrus Splash </div>
+            <img src="images\387-rinse-refresh.jpg">
+            <div class="card-body">
+                <h5 class="card-title">RINSE REFRESH</h5>
+                <p class="card-text">cucumber, grapefruit, pineapple</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Cool, Citrus Quench </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Spicy Sweet Revival </div>
+            <img src="images\388-rinse-recharge.jpg">
+            <div class="card-body">
+                <h5 class="card-title">RINSE RECHARGE</h5>
+                <p class="card-text">filtered water, lemon, pineapple, maple syrup, cayenne pepper</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Zap, Sip, Zoom </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Crimson Crunch Cruise </div>
+            <img src="images\389-red-loaded.jpg">
+            <div class="card-body">
+                <h5 class="card-title">RED LOADED</h5>
+                <p class="card-text">carrot, celery, red pepper, cucumber, lemon</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Savor Scarlet Sips </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Golden Glow Gulp </div>
+            <img src="images\398-turmeric-tonic.jpg">
+            <div class="card-body">
+                <h5 class="card-title">TURMERIC TONIC</h5>
+                <p class="card-text">filtered water, turmeric, lime, maple syrup</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Turmeric Twist Taste </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Tropical Tranquility Taste </div>
+            <img src="images\399-coco-classic.jpg">
+            <div class="card-body">
+                <h5 class="card-title">COCO CLASSIC</h5>
+                <p class="card-text">young thai coconut water, aloe vera</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Sip Serene Sunshine </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Mystic Midnight Mingle </div>
+            <img src="images\400-the-darkness.jpg">
+            <div class="card-body">
+                <h5 class="card-title">THE DARKNESS</h5>
+                <p class="card-text">filtered water, black tea leaves, activated charcoal, aloe vera, maple syrup</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Dark, Detox Delight </div>
+        </div>
+
+      </div>
+
+</div>
+
+<div class="container-fluid">
+    <div class="text-center"><h1>ACAI BOWLS & MORE</h1></div>
+<div class="row row-cols-3">
+
+          <div class="card col" style="width: 18rem; margin:20px;">
+              <div class="card-header"> Morning Glory Gourmet </div>
+              <img src="images\475-breakfast-bowl.jpg">
+              <div class="card-body">
+                  <h5 class="card-title">BREAKFAST BOWL</h5>
+                  <p class="card-text">flax crisps, coconut flakes, blueberries, overnight oats, almond milk</p>
+              </div>
+              <div class="card-footer text-body-secondary"> Awake, Taste, Thrive </div>
+          </div>
+
+
+          <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Hearty Harvest Heat </div>
+            <img src="images\476-chili-15546949999892.jpg">
+            <div class="card-body">
+                <h5 class="card-title">CHILI</h5>
+                <p class="card-text">seitan, corn, black beans, tomatos, ancho peppers, vegan queso</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Warm, Wholesome Win </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Crisp Green Gala </div>
+            <img src="images\489-salad.jpg">
+            <div class="card-body">
+                <h5 class="card-title">SALAD</h5>
+                <p class="card-text">kale, spinach, cucumber, pickled sumac onions, lemon, vegan croutons</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Leafy, Zesty Love </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Silky Seeds Symphony </div>
+            <img src="images\492-chia-pudding.jpg">
+            <div class="card-body">
+                <h5 class="card-title">CHIA PUDDING</h5>
+                <p class="card-text">filtered water, almonds, cacao, chia seeds, maple syrup, dates, pink salt</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Sweet, Smooth Solace </div>
+        </div>
+
+        <div class="card col" style="width: 18rem; margin:20px;">
+            <div class="card-header"> Rapid Raspberry Rush </div>
+            <img src="images\401-bolt.jpg">
+            <div class="card-body">
+                <h5 class="card-title">BOLT</h5>
+                <p class="card-text">guayusa, maca, celery, raspberries</p>
+            </div>
+            <div class="card-footer text-body-secondary"> Zing, Zoom, Energize </div>
+        </div>
+
+      </div>
+
+</div>
+
+<!-- this footer is just a cleaned up version of what the professor used.  -->
+<footer>
+    <hr>
+    &copy; Copyright 2024 EBD20 | :)
+  </footer>
+
+    </body>
+</html>
